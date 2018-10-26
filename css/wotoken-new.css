@@ -55,6 +55,18 @@ body,.header,.section,.footer{
   vertical-align: middle;
 }
 
+#lang-fa{
+	position: relative;
+	bottom: 2px;
+}
+
+.other-lang{
+	display: none;
+	text-align: left;
+	position: relative;
+	bottom: 40px;
+}
+
 .header .h-middle{
 	height: 343px;
 	width: 1092px;

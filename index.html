@@ -1,5 +1,6 @@
-<html>
+<!DOCTYPE html>
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"  />
 		<title>WoToken</title>
 		<!--<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -19,10 +20,14 @@
 			<!--<img src="image/test_hu_huo.gif"/>-->
 			<div class="content h-top">
 				<div class="w-left h-top-l">
-					<a href=""> WoToken </a>
+					<a href=""><img src="image/wotoken/wotoken-logo.png"/></a>
 				</div>
 				<div class="w-right h-top-r">
-					<a href="">EN <i class="fa fa-sort-down fa-2x" aria-hidden="true"></i></a>
+					<a href="javascript:toggle_lang();">EN <i class="fa fa-sort-down fa-2x" aria-hidden="true" id="lang-fa"></i>
+						<div class="other-lang">
+							<a href="">CN</a>
+						</div>
+					</a>
 				</div>
 				
 				<div class="h-middle">
@@ -49,7 +54,7 @@
 		</header>
 		
 		<!--content-->
-		<section class="about">
+		<!--<section class="about">
 			<div class="content">
 				
 				<div class="about-left">
@@ -218,10 +223,10 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>-->
 
 		<!--footer-->
-		<footer class="footer">
+		<!--<footer class="footer">
 			<div class="content">
 				<div class="w-left">
 					&#169 2018 WoToken Network. All Rights Reserved.
@@ -237,7 +242,9 @@
 					</div>
 				</div>
 			</div>
-		</footer>
+		</footer>-->
+		<script type="text/javascript" src="jquery.js" ></script>
+		<script src="js/wotoken.js" type="text/javascript" charset="utf-8"></script>
 		
 	</body>
 </html>
