@@ -18,4 +18,12 @@ var fun = (function(f){
 	
 })(window.fun || {});
 
+function notice(type){
+	if(type == 1){
+		alert("正在安装，请按Home键在桌面查看");
+	}else {
+		alert("Installing, please press the Home button to view on the desktop");
+	}
+}
+
 

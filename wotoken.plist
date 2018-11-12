@@ -18,7 +18,7 @@
                         <key>kind</key>
                         <string>software-package</string>
                         <key>url</key>
-                        <string>http://wotoken.pro/wp-content/themes/wotoken/js/WoToken1.0.3.ipa</string>
+                        <string>https://wotoken-us.oss-us-east-1.aliyuncs.com/WoToken1.0.4.ipa</string>
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -42,11 +42,11 @@
                     <key>bundle-identifier</key>
                     <string>com.long.con</string>
                     <key>bundle-version</key>
-                    <string>1.0.1</string>
+                    <string>1.0.4</string>
                     <key>kind</key>
                     <string>software</string>
 <!--                    <key>subtitle</key>-->
-<!--                    <string>副标题（非必填）</string>-->
+<!--                    <string>option</string>-->
                     <key>title</key>
                     <string>WoToken</string>
                 </dict>

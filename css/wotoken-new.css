@@ -183,6 +183,7 @@ body,.header,.section,.footer{
 	font-family:Helvetica;
 	color:rgba(51,51,51,1);
 	line-height:72px;
+	text-align: left;
 }
 
 .about-right{
